@@ -47,10 +47,7 @@
     width: 800px;
     margin: 100px auto;
   }
-  input {
-    width: 80%;
-    line-height: 3;
-  }
+
   button {
     background: blue;
     border: none;
@@ -70,7 +67,7 @@
     border-radius: 34px;
     width: 90%;
   }
-  
+
   .toggle-container {
     background-color:white;
     border:10px solid black;
