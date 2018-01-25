@@ -5,17 +5,11 @@
 </button>
 
 <main class="input-container">
-  <div>
-    <input type="text"  #titleInput>
-    <button type="submit" (click) = 'addTodo(titleInput.value)'>Add</button>
-  </div>
-  
-  
-  <div *ngIf="enterValue" [@someCoolAnimation]="bindingVar">
-    <p>{{enterValue}}</p>
-  </div>
+
 </main>
 
 
 <app-menu [@slideInOut]="menuState"></app-menu>
+
+
 
