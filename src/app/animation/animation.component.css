@@ -1,0 +1,69 @@
+.hamburger {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 96px;
+    height: 96px;
+    font-size: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: 0;
+  }
+   
+   
+  .hamburger span {
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 18px;
+    right: 18px;
+    height: 8px;
+    background: #1a2580;
+  }
+   
+  .hamburger span::before,
+  .hamburger span::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #1a2580;
+    content: "";
+  }
+   
+  .hamburger span::before {
+    top: -20px;
+  }
+   
+  .hamburger span::after {
+    bottom: -20px;
+  }
+  .input-container {
+    width: 400px;
+    margin: 100px auto;
+  }
+  input {
+    width: 80%;
+    line-height: 3;
+  }
+  button {
+    background: blue;
+    border: none;
+    color: white;
+    line-height: 3.1;
+    width: 15%;
+    font-weight: bold;
+  }
+  p {
+    margin-top: 23px;
+    background: #e1dedb;
+    padding: 8px 0px 8px 23px;
+    line-height: 2;
+    border-radius: 34px;
+    width: 90%;
+  }

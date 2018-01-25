@@ -3,7 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { AppComponent } from './app.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { Animationomponent } from './animation/animation.component';
+import { AnimationComponent } from './animation/animation.component';
 
 const appRoutes: Routes = [
     {
@@ -12,7 +12,7 @@ const appRoutes: Routes = [
     },
     {
         path: 'animation',
-        component: Animationomponent
+        component: AnimationComponent
     }
 ];
 
