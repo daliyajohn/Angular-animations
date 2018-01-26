@@ -1,0 +1,16 @@
+
+<button (click)="toggleMenu()" 
+  class="hamburger">
+  <span>toggle menu</span>
+</button>
+
+<app-menu [@slideInOut]="menuState"></app-menu>
+
+<div class="input-container">
+  <button id="add" (click)="addItem()">Add item</button>
+  <button id="remove" (click)="removeItem()">Remove item</button>
+
+  <div class="list" *ngFor="let item of items">
+    {{item}}
+  </div>
+</div>
