@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { AnimationComponent } from './animation/animation.component';
+import { NoAnimationComponent } from './noanimation/noanimation.component';
 
 const appRoutes: Routes = [
     {
@@ -13,6 +14,10 @@ const appRoutes: Routes = [
     {
         path: 'animation',
         component: AnimationComponent
+    },
+    {
+        path: 'noanimation',
+        component: NoAnimationComponent
     }
 ];
 

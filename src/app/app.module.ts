@@ -8,6 +8,8 @@ import { AnimationComponent } from './animation/animation.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { FormsModule } from '@angular/forms';
+import { NoAnimationComponent } from './noanimation/noanimation.component';
+
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HomeComponent,
     AnimationComponent,
-    MenuComponent
+    MenuComponent,
+    NoAnimationComponent
   ],
   imports: [
     BrowserModule,
